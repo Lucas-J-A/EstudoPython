@@ -1,0 +1,5 @@
+n = input('Digite um numero ')
+print('Ele é um numero ? ', n.isnumeric())
+print('Ele é um Alpha ? ', n.isalpha())
+print('Ele esta todo escrito em minusuculo se for uma string ? ',n.islower())
+print('Ele é printavel ? ', n.isprintable())
